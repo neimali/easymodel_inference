@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "model-inference-service"
+version = "0.1.0"
+description = ""
+authors = ["neimali <gaoyinghan1997@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
